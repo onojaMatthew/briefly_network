@@ -1,0 +1,30 @@
+
+.main-sidebar {
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  min-height: 100vh;
+  border-left: 4px solid #E87C23;
+  background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
+  background: #080730 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.iconText {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 600 16px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.menu {
+  margin-bottom: 56px;
+}
+
+/* .logo-container {
+  margin-bottom: 59px;
+} */
