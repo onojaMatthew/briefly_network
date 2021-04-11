@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Grid, Icon, Input } from "semantic-ui-react";
 import { SubmitButton } from "../Buttons/Button";
+import Logo from "../../assets/briefly_logo.svg";
+
 import { styles } from "../styles/Global";
 import "./Login.css";
 
@@ -27,6 +29,7 @@ const Login = () => {
       <Grid centered columns={4}>
         <Grid.Column>
           <div style={styles.loginCard}>
+            <img src={Logo} alt="Logo" style={styles.logo} />
             <p style={styles.loginText}>Login to our database</p>
             <Grid.Row>
               <Grid.Column>

@@ -108,9 +108,16 @@ export const styles = ({
     border: "1px solid #DDDDDD",
     opacity: 1,
   },
-
-  header: {},
-  sidebar: {},
+  layout: {
+    height: "100vh",
+    background: "#F8F8F8 0% 0% no-repeat padding-box",
+    border: "1px solid #DDDDDD",
+    opacity: 1,
+  },
+  header: {
+    borderBottom: " 1px solid #DDDDDD",
+    padding: "50px"
+  },
   dashboardInput: {
     width: "329px",
     height: "60px",
@@ -158,5 +165,8 @@ export const styles = ({
     height: "17px",
     color: "#FFFFFF",
     opacity: 1,
+  },
+  logo: {
+    marginBottom: "78px",
   }
 })
