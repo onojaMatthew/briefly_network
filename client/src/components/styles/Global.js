@@ -17,7 +17,6 @@ export const styles = ({
   },
   loginText: {
     marginBottom: "51px",
-    // textAlign: "center",
     font: "normal normal 600 16px/22px Nunito Sans",
     letterSpacing: "0px",
     color: "#E87C23",
@@ -174,13 +173,18 @@ export const styles = ({
     borderBottom: "1px solid #DDDDDD",
     padding: "40px",
     width: "280px",
-    textAlign: "left",
+    textAlign: "center",
     font: "normal normal bold 16px/22px Nunito Sans",
     letterSpacing: "0px",
     color: "#080730",
     opacity: 1,
   },
+  innerSidebarIcon: {
+    textAlign: "center",
+    paddingTop: "45px",
+    color: "#E87C23"
+  },
   logo: {
     marginBottom: "78px",
   }
-})
+});
