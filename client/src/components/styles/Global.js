@@ -115,8 +115,8 @@ export const styles = ({
     opacity: 1,
   },
   header: {
-    borderBottom: " 1px solid #DDDDDD",
-    padding: "50px"
+    borderBottom: "1px solid #DDDDDD",
+    padding: "30px"
   },
   dashboardInput: {
     width: "329px",
@@ -164,6 +164,20 @@ export const styles = ({
     width: "22px",
     height: "17px",
     color: "#FFFFFF",
+    opacity: 1,
+  },
+  innerSidebar: {
+    borderRight: "1px solid #DDDDDD",
+    height: "91vh"
+  },
+  innerSidebarHeader: {
+    borderBottom: "1px solid #DDDDDD",
+    padding: "40px",
+    width: "280px",
+    textAlign: "left",
+    font: "normal normal bold 16px/22px Nunito Sans",
+    letterSpacing: "0px",
+    color: "#080730",
     opacity: 1,
   },
   logo: {
