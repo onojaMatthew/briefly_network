@@ -8,6 +8,7 @@
   background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
   background: #080730 0% 0% no-repeat padding-box;
   opacity: 1;
+  padding: 77px;
 }
 
 .iconText {
@@ -27,4 +28,13 @@
 
 .logo-container {
   margin-bottom: 59px;
+}
+
+.icons {
+  width: 329px;
+  height: 60px;
+  color: #E87C23;
+  margin-right: 27px !important;
+  border-radius: 4px;
+  opacity: 1,
 }

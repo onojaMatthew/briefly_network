@@ -158,12 +158,12 @@ export const styles = ({
     cursor: "pointer",
   },
   sidebarIcon: {
-    marginLeft: "82px",
-    marginRight: "27px",
-    width: "22px",
-    height: "17px",
-    color: "#FFFFFF",
-    opacity: 1,
+    // marginLeft: "82px",
+    // marginRight: "27px",
+    // width: "22px",
+    // height: "17px",
+    // color: "#FFFFFF",
+    // opacity: 1,
   },
   innerSidebar: {
     borderRight: "1px solid #DDDDDD",
