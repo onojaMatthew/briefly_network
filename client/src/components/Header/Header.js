@@ -6,7 +6,7 @@ import Logo from "../../assets/briefly_logo.svg"
 
 const Header = () => {
   return (
-    <div >
+    <div>
       <Grid style={styles.header}>
         <Grid.Column width={12}></Grid.Column>
         <Grid.Column width={4}>

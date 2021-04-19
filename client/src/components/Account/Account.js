@@ -1,37 +1,39 @@
+import { Layout } from "antd";
 import React from "react";
-import { Grid, Icon } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import Header from "../Header/Header";
 import SideBar from "../SideBar/SideBar";
-import { styles } from "../styles/Global";
+// import { styles } from "../styles/Global";
+import "./Account.css";
 
+const { Content } = Layout
 const Account = () => {
   return (
-    <div style={styles.layout}>
-      <Grid>
-        <Grid.Column width={3}>
-          <SideBar />
-        </Grid.Column>
-        <Grid.Column width={13}>
-          <div>
-            <Header />
-          </div>
-          
-          <div>
-            <Grid>
-              <Grid.Column width="3" style={styles.innerSidebar}>
-                <div style={styles.innerSidebarHeader}>
-                  <p>Add new user</p>
-                </div>
-                <div style={styles.innerSidebarIcon}>
-                  <p><Icon name="users" /> Client</p>
-                </div>
-              </Grid.Column>
-              <Grid.Column width="12">jkjdksjsk</Grid.Column>
-            </Grid>
-          </div>
-        </Grid.Column>
-      </Grid>
-    </div>
+    <Layout>
+      
+        <SideBar />
+        
+      <Layout className="site-layout">
+        <Header />
+        
+        <Content
+          className="site-layout-background"
+          style={{
+            margin: '0px',
+            padding: 24,
+            minHeight: 280,
+            background: "#FFFFFF"
+          }}
+        >
+          <Grid>
+            <Grid.Row>
+              <Grid.Column width="3" className="sub-sidebar">Hello the sidebar</Grid.Column>
+              <Grid.Column width="13">Hello large content</Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Content>
+      </Layout>
+    </Layout>
   );
 }
 
