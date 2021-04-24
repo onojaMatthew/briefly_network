@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter className="App">
       <Switch>
         <Route exact path="/" render={(props) => <Login {...props} />} />
-        <Route exact path="/account" render={(props) => <Account {...props} />} />
+        <Route path="/account" render={(props) => <Account {...props} />} />
       </Switch>
     </BrowserRouter>
   );

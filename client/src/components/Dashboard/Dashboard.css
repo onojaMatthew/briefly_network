@@ -1,6 +1,6 @@
 .dashboard {
   padding-top: 40px;
-  padding-left: 250px;
+  padding-left: 200px;
 }
 
 .dashboard h3 {
@@ -20,6 +20,67 @@
   border: 1.5px solid var(--unnamed-color-dddddd);
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 2px solid #DDDDDD;
+  padding-top: 30%;
   border-radius: 8px;
+  opacity: 1;
+}
+
+.chart-card {
+  height: 455px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1.5px solid var(--unnamed-color-dddddd);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #DDDDDD;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.client-number {
+  height: 165px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1.5px solid var(--unnamed-color-080730);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #080730;
+  border-radius: 8px;
+  padding-top: 10%;
+  opacity: 1;
+}
+
+.add-card {
+  height: 165px;
+  background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
+  background: #080730 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding-bottom: 70px !important;
+  padding-left: 65px;
+  opacity: 1;
+}
+
+.plus-icon {
+  font-size: 80px !important;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.percentage {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-31-25)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-e87c23);
+  text-align: center;
+  font: normal normal bold 31px/43px Nunito Sans;
+  letter-spacing: 0px;
+  margin-top: -20px;
+  color: #E87C23 !important;
+  opacity: 1;
+}
+
+.client-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-080730);
+  text-align: center;
+  font: normal normal bold 16px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #080730;
   opacity: 1;
 }

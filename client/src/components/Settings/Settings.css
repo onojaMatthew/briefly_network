@@ -1,0 +1,24 @@
+.settings-container {
+  margin-left: 45px;
+}
+
+.settings-column {
+
+}
+
+.user-type-tabs {
+  border: 1px solid #C7C7C7;
+  height: 80vh;
+  /* border-right: 1px solid #C7C7C7 !important; */
+}
+
+.s-text {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-22) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-080730);
+  text-align: left;
+  font: normal normal bold 16px/22px Nunito Sans;
+  letter-spacing: 0px;
+  color: #080730;
+  opacity: 1;
+}

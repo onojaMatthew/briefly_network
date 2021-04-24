@@ -28,7 +28,7 @@ const Account = (props) => {
           style={{
             margin: '0px',
             minHeight: 280,
-            background: "#FFFFFF",
+            background: "#F8F8F8",
           }}
         >
           <Grid>

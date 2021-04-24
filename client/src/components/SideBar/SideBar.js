@@ -20,22 +20,22 @@ const SideBar = () => {
             </div>
             <Menu theme="dark" id="sidebar-menu-container" mode="inline" defaultSelectedKeys={['1']}>
               <span className="sidebar-label-title">Analytics</span>
-              <Menu.Item key="1" className="sidebar-menu" icon={<Icon name="pie chart" className="icons" />}>
+              <Menu.Item onClick={() => window.location.href="/account"} key="1" className="sidebar-menu" icon={<Icon name="pie chart" className="icons" />}>
                 Dashboard
               </Menu.Item>
-              <Menu.Item key="2" id="report" className="sidebar-menu" icon={<Icon name="file alternate outline" className="icons" />}>
+              <Menu.Item onClick={() => window.location.href="/account/report"} key="2" id="report" className="sidebar-menu" icon={<Icon name="file alternate outline" className="icons" />}>
                 Report
               </Menu.Item>
 
               <span className="sidebar-label-title">Users</span>
-              <Menu.Item key="3" className="sidebar-menu" icon={<Icon name="users" className="icons" />}>
+              <Menu.Item onClick={() => window.location.href="/account/clients"} key="3" className="sidebar-menu" icon={<Icon name="users" className="icons" />}>
                 Clients
               </Menu.Item>
-              <Menu.Item key="4" className="sidebar-menu" icon={<Icon name="user plus" className="icons" />}>
+              <Menu.Item key="4" onClick={() => window.location.href="/account/requests"} className="sidebar-menu" icon={<Icon name="user plus" className="icons" />}>
                 User Request
               </Menu.Item>
               
-              <Menu.Item key="5" className="sidebar-menu" icon={<Icon name="cog" className="icons" />}>
+              <Menu.Item key="5" onClick={() => window.location.href="/account/settings"} className="sidebar-menu" icon={<Icon name="cog" className="icons" />}>
                 Settings
               </Menu.Item>
               <Menu.Item key="6" className="sidebar-menu" icon={<Icon name="logout" className="icons" />}>
