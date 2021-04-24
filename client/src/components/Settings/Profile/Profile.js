@@ -23,7 +23,7 @@ const Profile = () => {
                   </span>
                 </Col>
                 <Col xs="8" xl="8">
-                  <Button>Active</Button>
+                  <Button className="active-button">Active</Button>
                 </Col>
                 <Col xs="2" xl="2"></Col>
               </Row>
