@@ -2,8 +2,11 @@
 .main-sidebar {
   top: 0px;
   left: 0px;
+  border-left: 4px solid #E87C23 !important;
+  min-width: 350px !important;
   min-height: 100vh;
-  border-left: 4px solid #E87C23;
+  padding-top: 20px;
+  padding-left: 70px;
   background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
   background: #080730 0% 0% no-repeat padding-box !important;
   opacity: 1;
@@ -58,7 +61,12 @@
 
 .logo-container {
   margin-bottom: 59px;
+
   display: flex;
+}
+
+.logo-container img {
+  height: 77px !important;
 }
 
 .icons {
@@ -67,4 +75,10 @@
   margin-right: 27px !important;
   border-radius: 4px;
   opacity: 1,
+}
+
+@media only screen and (max-width: 490px) {
+  .main-sidebar-container {
+    display: none;
+  }
 }

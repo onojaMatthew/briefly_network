@@ -6,6 +6,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import logger from "redux-logger";
 import { rootReducer } from "./store/reducers";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'semantic-ui-css/semantic.min.css'
 import 'antd/dist/antd.css';
 import './index.css';
