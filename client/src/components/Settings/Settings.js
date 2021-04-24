@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Row, Col, Card, CardBody } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import { Icon } from "semantic-ui-react";
 import Admin from "./Admin/Admin";
 import Profile from "./Profile/Profile";

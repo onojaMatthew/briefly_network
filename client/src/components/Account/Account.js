@@ -9,7 +9,6 @@ import Report from "../Report/Report";
 import Request from "../Request/Request";
 import Settings from "../Settings/Settings";
 import SideBar from "../SideBar/SideBar";
-// import { styles } from "../styles/Global";
 import "./Account.css";
 
 const { Content } = Layout
