@@ -18,7 +18,7 @@ const Account = (props) => {
   return (
     <Layout>
       
-        <SideBar />
+      <SideBar />
         
       <Layout className="site-layout">
         <Header />
@@ -39,7 +39,7 @@ const Account = (props) => {
                   <Route exact path={`${match.url}/report`} render={(props) => <Report {...props} /> } />
                   <Route exact path={`${match.url}/clients`} render={(props) => <Client {...props} /> } />
                   <Route exact path={`${match.url}/requests`} render={(props) => <Request {...props} /> } />
-                  <Route exact path={`${match.url}/settings`} render={(props) => <Settings {...props} /> } />
+                  <Route path={`${match.url}/settings`} render={(props) => <Settings {...props} /> } />
                 </Switch>
               </Grid.Column>
             </Grid.Row>
