@@ -212,6 +212,16 @@ const User = () => {
           </Card>
         </Col>
       </Row>
+
+      <Row className="mt-5 mb-5">
+        <Col xs="12" xl="3">
+          <Card className="add-card">
+            <CardBody>
+              <span className="plus-icon">+</span>
+            </CardBody>
+          </Card>
+        </Col>
+      </Row>
     </div>
   );
 }
