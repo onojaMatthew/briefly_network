@@ -26,7 +26,7 @@ const Settings = (props) => {
             </Col>
           </Row>
         </Col>
-        <Col xs="12" xl="10">
+        <Col xs="12" xl="9">
           <Switch>
             <Route exact path={`${match.url}`} render={(props) => <Profile {...props} /> } />
             <Route exact path={`${match.url}/user`} render={(props) => <User {...props} /> } />

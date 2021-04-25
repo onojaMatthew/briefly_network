@@ -55,18 +55,18 @@ const Profile = () => {
 
           <Row className="mt-4">
             <Col xs="3" xl="3">
-              <Button>Edit</Button>
+              <Button className="edit">Edit</Button>
+            </Col>
+            <Col xs="4" xl="4">
+              <Button className="suspend">Suspend</Button>
             </Col>
             <Col xs="3" xl="3">
-              <Button>Suspend</Button>
-            </Col>
-            <Col xs="3" xl="3">
-              <Button>Delete</Button>
+              <Button className="delete">Delete</Button>
             </Col>
           </Row>
-          <Row className="mt-4">
+          <Row className="mt-4 mb-4">
             <Col xs="12" xl="12">
-              <Button>Reset password</Button>
+              <Button className="reset-password">Reset password</Button>
             </Col>
           </Row>
         </Col>

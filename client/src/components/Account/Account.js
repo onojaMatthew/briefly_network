@@ -6,7 +6,8 @@ import Client from "../Client/Client";
 import Dashboard from "../Dashboard/Dashboard";
 import Header from "../Header/Header";
 import Report from "../Report/Report";
-import Request from "../Request/Request";
+import RequestContainer from "../Request/Container";
+// import Request from "../Request/Request";
 import Settings from "../Settings/Settings";
 import SideBar from "../SideBar/SideBar";
 import "./Account.css";
@@ -37,7 +38,7 @@ const Account = (props) => {
                   <Route exact path={`${match.url}`} render={(props) => <Dashboard {...props} /> } />
                   <Route exact path={`${match.url}/report`} render={(props) => <Report {...props} /> } />
                   <Route exact path={`${match.url}/clients`} render={(props) => <Client {...props} /> } />
-                  <Route exact path={`${match.url}/requests`} render={(props) => <Request {...props} /> } />
+                  <Route path={`${match.url}/requests`} render={(props) => <RequestContainer {...props} /> } />
                   <Route path={`${match.url}/settings`} render={(props) => <Settings {...props} /> } />
                 </Switch>
               </Grid.Column>
