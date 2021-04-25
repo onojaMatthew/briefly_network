@@ -126,21 +126,67 @@ const Profile = () => {
                 <Panel header="Permissions" key="2" id="panel2">
                   <Row className="mb-4">
                     <Col xs="12" xl="12">
-                      {/* <div > */}
-                        <Row className="check-container">
-                          <Col xs="1" xl="1">
-                            <Input type="checkbox" />
-                          </Col>
-                          <Col xs="11" xl="11">
-                            <span id="label-span">Add user</span>
-                          </Col>
-                        </Row>
-                        
-                      {/* </div> */}
+                      <div className="add-permission">
+                        <ul>
+                          <li>
+                            <Input type="checkbox" id="checkbox" />
+                          </li>
+                          <li>
+                            <p className="describe">Add user</p>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="view-permission">
+                        <ul>
+                          <li>
+                            <Input type="checkbox" id="checkbox" />
+                          </li>
+                          <li>
+                            <p className="describe">View user</p>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="edit-permission">
+                        <ul>
+                          <li>
+                            <Input type="checkbox" id="checkbox" />
+                          </li>
+                          <li>
+                            <p className="describe">Edit user</p>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div className="delete-permission">
+                        <ul>
+                          <li>
+                            <Input type="checkbox" id="checkbox" />
+                          </li>
+                          <li>
+                            <p className="describe">Delete user</p>
+                          </li>
+                        </ul>
+                      </div>
                     </Col>
                   </Row>
                 </Panel>
               </Collapse>
+            </Col>
+          </Row>
+
+          <Row className="mt-4">
+            <Col xs="12" xl="6"></Col>
+            <Col xs="12" xl="6">
+              <Row>
+                <Col xs="12" xl="6">
+                  <Button className="discard">Discard</Button>
+                </Col>
+                <Col xs="12" xl="6">
+                  <Button className="save">Save Changes</Button>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>

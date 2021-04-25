@@ -47,13 +47,13 @@
 
 .active-button {
   height: 40px;
-  background: var(--unnamed-color-24a047) 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-24a047) 0% 0% no-repeat padding-box; */
   border: 1px solid var(--unnamed-color-dddddd);
-  background: #24A047 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   opacity: 1;
-  color: #FFFFFF;
+  color: #000 !important;
   width: 100%;
 }
 

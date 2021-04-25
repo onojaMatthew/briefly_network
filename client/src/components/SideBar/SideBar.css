@@ -84,7 +84,7 @@
 }
 
 @media only screen and (max-width: 490px) {
-  .main-sidebar-container {
+  .main-sidebar {
     display: none;
   }
 }

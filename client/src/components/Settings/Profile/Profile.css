@@ -96,8 +96,9 @@
 }
 
 #panel1, #panel2 {
-  border: 1px solid #DDDDDD;;;
+  border: 1px solid #DDDDDD;
   margin-bottom: 10px;
+  background: #FFFFFF;
 }
 
 input, select {
@@ -116,6 +117,71 @@ input, select {
   border-radius: 4px;
   padding: 10px;
 }
+
 #label-span {
   padding-top: 100px !important;
+}
+
+div.add-permission, .view-permission, .edit-permission, .delete-permission {
+  border: 1px solid #DDDDDD;
+  padding: 5px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.add-permission ul, .view-permission ul, .edit-permission ul, .delete-permission ul {
+  padding-top: 7px;
+}
+
+
+.add-permission ul li, .view-permission ul li, .edit-permission ul li, .delete-permission ul li {
+  display: inline;
+}
+
+#checkbox {
+  margin-top: -10px;
+  /* margin-right: 20px; */
+  margin-left: -30px !important;
+  width: 24px;
+  height: 24px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #D4D4D5;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.describe {
+  margin-left: 7px;
+  margin-top: 5px !important;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 12px/16px var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-080730);
+  text-align: left;
+  font: normal normal 600 12px/16px Nunito Sans;
+  letter-spacing: 0px;
+  color: #080730;
+  opacity: 1;
+}
+
+.discard {
+  height: 50px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-dddddd);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  width: 100%;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.save {
+  height: 50px;
+  width: 100%;
+  background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
+  background: #080730 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  color: #FFFFFF;
+  opacity: 1;
 }
