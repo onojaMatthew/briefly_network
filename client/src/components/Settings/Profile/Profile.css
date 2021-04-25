@@ -71,6 +71,7 @@
 
 .delete-icon {
   font-size: 20px;
+  color: #080730;
   opacity: 1;
 }
 
@@ -83,6 +84,29 @@
   padding-top: 13;
   padding-bottom: 13px;
   margin-top: 50px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.icon1 {
+  margin-right: -50px !important;
+}
+
+.icon2 {
+  margin-left: -10px;
+}
+
+#panel1, #panel2 {
+  border: 1px solid #DDDDDD;;;
+  margin-bottom: 10px;
+}
+
+input, select {
+  height: 45px !important;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-080730);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #080730;
   border-radius: 4px;
   opacity: 1;
 }
