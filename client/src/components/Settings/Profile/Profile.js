@@ -1,6 +1,6 @@
 import { Collapse, Avatar, Button } from "antd";
 import React, { useState } from "react";
-import { Card, CardBody, Col, Input, Row, Form, Label, FormGroup } from "reactstrap";
+import { Card, CardBody, Col, Input, Row } from "reactstrap";
 import { CheckOutlined, DeleteOutlined} from "@ant-design/icons";
 import "./Profile.css";
 
@@ -52,8 +52,25 @@ const Profile = () => {
               </Row>
             </CardBody>
           </Card>
+
+          <Row className="mt-4">
+            <Col xs="3" xl="3">
+              <Button>Edit</Button>
+            </Col>
+            <Col xs="3" xl="3">
+              <Button>Suspend</Button>
+            </Col>
+            <Col xs="3" xl="3">
+              <Button>Delete</Button>
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col xs="12" xl="12">
+              <Button>Reset password</Button>
+            </Col>
+          </Row>
         </Col>
-        <Col xs="12" xl="6">
+        <Col xs="12" xl="8">
           <Row>
             <Col xs="12" xl="12">
               <Collapse bordered={false} defaultActiveKey={['1']}>
@@ -108,15 +125,18 @@ const Profile = () => {
                 </Panel>
                 <Panel header="Permissions" key="2" id="panel2">
                   <Row className="mb-4">
-                    <Col xs="12" xl="6">
-                      <Form>
-                        <FormGroup check>
-                          <Label check>
-                            <Input type="radio" name="radio2" />{' '}
-                            Option two can be something else and selecting it will deselect option one
-                          </Label>
-                        </FormGroup>
-                      </Form>
+                    <Col xs="12" xl="12">
+                      {/* <div > */}
+                        <Row className="check-container">
+                          <Col xs="1" xl="1">
+                            <Input type="checkbox" />
+                          </Col>
+                          <Col xs="11" xl="11">
+                            <span id="label-span">Add user</span>
+                          </Col>
+                        </Row>
+                        
+                      {/* </div> */}
                     </Col>
                   </Row>
                 </Panel>

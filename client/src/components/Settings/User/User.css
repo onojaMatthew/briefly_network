@@ -1,0 +1,85 @@
+.user-profile-card {
+  width: 100%;
+  height: 330px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1.5px solid var(--unnamed-color-dddddd);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #DDDDDD;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.p-name {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-080730);
+  text-align: center;
+  font: normal normal bold 14px/19px Nunito Sans;
+  letter-spacing: 0px;
+  color: #080730;
+  line-height: 0.0000033px;
+  opacity: 1;
+}
+
+.p-ID {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-8e8e8e);
+  text-align: center;
+  font: normal normal 600 14px/19px Nunito Sans;
+  letter-spacing: 0px;
+  color: #8E8E8E;
+  line-height: 0.0000033px;
+  opacity: 1;
+}
+
+.p-role {
+  line-height: 0.0000033px !important;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-nunito-sans);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-24a047);
+  text-align: center;
+  font: normal normal 600 14px/19px Nunito Sans;
+  letter-spacing: 0px;
+  color: #24A047;
+  opacity: 1;
+}
+
+.active-button {
+  height: 40px;
+  background: var(--unnamed-color-24a047) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-dddddd);
+  background: #24A047 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  opacity: 1;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.delete-icon {
+  font-size: 20px;
+  color: #080730;
+  opacity: 1;
+}
+
+.icon-container {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-dddddd);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  padding: 6px;
+  padding-top: 13;
+  padding-bottom: 13px;
+  margin-top: 50px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.icon1 {
+  margin-right: -50px !important;
+}
+
+.icon2 {
+  margin-left: -10px;
+}

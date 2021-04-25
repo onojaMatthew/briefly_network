@@ -5,8 +5,7 @@
 } 
 
 .user-sidebar {
-  border-right: 1px solid #C7C7C7 !important;
-  /* padding-right: 20px; */
+  
   height: 88vh;
 }
 
@@ -109,4 +108,14 @@ input, select {
   border: 1px solid #080730;
   border-radius: 4px;
   opacity: 1;
+}
+
+.check-container {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 10px;
+}
+#label-span {
+  padding-top: 100px !important;
 }
