@@ -1,8 +1,13 @@
 
 .settings-profile-container {
-  border-right: 1px solid #C7C7C7 !important;
   height: 80vh;
   padding: 20px;
+} 
+
+.user-sidebar {
+  border-right: 1px solid #C7C7C7 !important;
+  /* padding-right: 20px; */
+  height: 88vh;
 }
 
 .profile-card {
@@ -49,5 +54,35 @@
   font: normal normal 600 14px/19px Nunito Sans;
   letter-spacing: 0px;
   color: #24A047;
+  opacity: 1;
+}
+
+.active-button {
+  height: 40px;
+  background: var(--unnamed-color-24a047) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-dddddd);
+  background: #24A047 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  opacity: 1;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.delete-icon {
+  font-size: 20px;
+  opacity: 1;
+}
+
+.icon-container {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  border: 1px solid var(--unnamed-color-dddddd);
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  padding: 6px;
+  padding-top: 13;
+  padding-bottom: 13px;
+  margin-top: 50px;
+  border-radius: 4px;
   opacity: 1;
 }
