@@ -60,6 +60,11 @@
   color: #FFFFFF;
   opacity: 1;
 }
+.main-sidebar {
+  min-width: 340px !important;
+  border-left: 4px solid #E87C23 !important;
+}
+
 
 .menu {
   margin-bottom: 56px;
