@@ -1,12 +1,8 @@
-/* div.main-sidebar-container {
-  background: var(--unnamed-color-080730) 0% 0% no-repeat padding-box;
-  background: #080730 0% 0% no-repeat padding-box !important;
-  /* width: 330px; */
-/* } */ */
 
 .main-sidebar {
   top: 0px;
   left: 0px;
+  bottom: 0px;
   border-left: 4px solid #E87C23 !important;
   min-width: 350px !important;
   min-height: 100vh;
