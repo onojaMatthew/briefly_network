@@ -3,7 +3,7 @@ import { Bar } from 'react-chartjs-2';
 
 const BarChart = ({ dataArray, color, label, chartHeight }) => {
   const data = {
-    labels: [ "01", "02", "03", "04", "05", "06", '07', "08" ],
+    labels: [ "Jan", "Feb", "Mar", "APr", "May", "Jun", 'Jul', "Aug", "Sept", "Oct", "Nov", "Dec" ],
     datasets: [
       {
         label: label,
